@@ -1,0 +1,724 @@
+
+l=[]
+minimum=[]
+res=[]
+
+def result(x1,x2,x3):
+
+    if x1==0 and x2==0 and x3==0:
+        print("very low")
+        res.append(0)
+    elif x1==0 and x2==0 and x3==1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 0 and x2 == 0 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 0 and x2 == 0 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 0 and x2 == 0 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+    elif x1 == 0 and x2 == 1 and x3 == 0:
+        print("very low")
+        res.append(0)
+
+    elif x1 == 0 and x2 == 1 and x3 == 1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 0 and x2 == 1 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 0 and x2 == 1 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 0 and x2 == 1 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+    elif x1==0 and x2==2 and x3==0:
+        print("very low")
+        res.append(0)
+    elif x1==0 and x2==2 and x3==1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 0 and x2 == 2 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 0 and x2 == 2 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 0 and x2 == 2 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+    elif x1 == 0 and x2 == 3 and x3 == 0:
+        print("very low")
+        res.append(0)
+
+    elif x1 == 0 and x2 == 3 and x3 == 1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 0 and x2 == 3 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 0 and x2 == 3 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 0 and x2 == 3 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+    elif x1 == 0 and x2 == 4 and x3 == 0:
+        print("very low")
+        res.append(0)
+
+    elif x1 == 0 and x2 == 4 and x3 == 1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 0 and x2 == 4 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 0 and x2 == 4 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 0 and x2 == 4 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+
+
+
+
+    elif x1 == 1 and x2 == 0 and x3 == 0:
+        print("very low")
+        res.append(0)
+    elif x1 == 1 and x2 == 0 and x3 == 1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 1 and x2 == 0 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 1 and x2 == 0 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 1 and x2 == 0 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+    elif x1 == 1 and x2 == 1 and x3 == 0:
+        print("very low")
+        res.append(0)
+
+    elif x1 == 1 and x2 == 1 and x3 == 1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 1 and x2 == 1 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 1 and x2 == 1 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 1 and x2 == 1 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+    elif x1 == 1 and x2 == 2 and x3 == 0:
+        print("very low")
+        res.append(0)
+    elif x1 == 1 and x2 == 2 and x3 == 1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 1 and x2 == 2 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 1 and x2 == 2 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 1 and x2 == 2 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+    elif x1 == 1 and x2 == 3 and x3 == 0:
+        print("very low")
+        res.append(0)
+
+    elif x1 == 1 and x2 == 3 and x3 == 1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 1 and x2 == 3 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 1 and x2 == 3 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 1 and x2 == 3 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+    elif x1 == 1 and x2 == 4 and x3 == 0:
+        print("very low")
+        res.append(0)
+
+    elif x1 == 1 and x2 == 4 and x3 == 1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 1 and x2 == 4 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 1 and x2 == 4 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 1 and x2 == 4 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+
+
+    elif x1 == 2 and x2 == 0 and x3 == 0:
+        print("very low")
+        res.append(0)
+    elif x1 == 2 and x2 == 0 and x3 == 1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 2 and x2 == 0 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 2 and x2 == 0 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 2 and x2 == 0 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+    elif x1 == 2 and x2 == 1 and x3 == 0:
+        print("very low")
+        res.append(0)
+
+    elif x1 == 2 and x2 == 1 and x3 == 1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 2 and x2 == 1 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 2 and x2 == 1 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 2 and x2 == 1 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+    elif x1 == 2 and x2 == 2 and x3 == 0:
+        print("very low")
+        res.append(0)
+    elif x1 == 2 and x2 == 2 and x3 == 1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 2 and x2 == 2 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 2 and x2 == 2 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 2 and x2 == 2 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+    elif x1 == 2 and x2 == 3 and x3 == 0:
+        print("very low")
+        res.append(0)
+
+    elif x1 == 2 and x2 == 3 and x3 == 1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 2 and x2 == 3 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 2 and x2 == 3 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 2 and x2 == 3 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+    elif x1 == 2 and x2 == 4 and x3 == 0:
+        print("very low")
+        res.append(0)
+
+    elif x1 == 2 and x2 == 4 and x3 == 1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 2 and x2 == 4 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 2 and x2 == 4 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 2 and x2 == 4 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+
+
+    elif x1 == 3 and x2 == 0 and x3 == 0:
+        print("very low")
+        res.append(0)
+    elif x1 == 3 and x2 == 0 and x3 == 1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 3 and x2 == 0 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 3 and x2 == 0 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 3 and x2 == 0 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+    elif x1 == 3 and x2 == 1 and x3 == 0:
+        print("very low")
+        res.append(0)
+
+    elif x1 == 3 and x2 == 1 and x3 == 1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 3 and x2 == 1 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 3 and x2 == 1 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 3 and x2 == 1 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+    elif x1 == 3 and x2 == 2 and x3 == 0:
+        print("very low")
+        res.append(0)
+    elif x1 == 3 and x2 == 2 and x3 == 1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 3 and x2 == 2 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 3 and x2 == 2 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 3 and x2 == 2 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+    elif x1 == 3 and x2 == 3 and x3 == 0:
+        print("very low")
+        res.append(0)
+
+    elif x1 == 3 and x2 == 3 and x3 == 1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 3 and x2 == 3 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 3 and x2 == 3 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 3 and x2 == 3 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+    elif x1 == 3 and x2 == 4 and x3 == 0:
+        print("very low")
+        res.append(0)
+
+    elif x1 == 3 and x2 == 4 and x3 == 1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 3 and x2 == 4 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 3 and x2 == 4 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 3 and x2 == 4 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+
+
+    elif x1 == 4 and x2 == 0 and x3 == 0:
+        print("very low")
+        res.append(0)
+    elif x1 == 4 and x2 == 0 and x3 == 1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 4 and x2 == 0 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 4 and x2 == 0 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 4 and x2 == 0 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+    elif x1 == 4 and x2 == 1 and x3 == 0:
+        print("very low")
+        res.append(0)
+
+    elif x1 == 4 and x2 == 1 and x3 == 1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 4 and x2 == 1 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 4 and x2 == 1 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 4 and x2 == 1 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+    elif x1 == 4 and x2 == 2 and x3 == 0:
+        print("very low")
+        res.append(0)
+    elif x1 == 4 and x2 == 2 and x3 == 1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 4 and x2 == 2 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 4 and x2 == 2 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 4 and x2 == 2 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+    elif x1 == 4 and x2 == 3 and x3 == 0:
+        print("very low")
+        res.append(0)
+
+    elif x1 == 4 and x2 == 3 and x3 == 1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 4 and x2 == 3 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 4 and x2 == 3 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 4 and x2 == 3 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+    elif x1 == 4 and x2 == 4 and x3 == 0:
+        print("very low")
+        res.append(0)
+
+    elif x1 == 4 and x2 == 4 and x3 == 1:
+        print("low")
+        res.append(1)
+
+    elif x1 == 4 and x2 == 4 and x3 == 2:
+        print("medium")
+        res.append(2)
+
+    elif x1 == 4 and x2 == 4 and x3 == 3:
+        print("high")
+        res.append(3)
+
+    elif x1 == 4 and x2 == 4 and x3 == 4:
+        print("very high")
+        res.append(4)
+
+
+
+
+
+
+
+
+
+
+def final():
+
+    x=sum(res)/len(res)
+
+    x=round(x)
+    if x==0:
+        print("final result is - strong buy")
+
+    elif x==1:
+        print("final result is - buy")
+
+    elif x==2:
+        print("final result is - neutral")
+
+    elif x==3:
+        print("final result is - sell")
+
+    else:
+        print("final result is - strong sell")
+
+
+
+
+def rsi_membership(z):
+
+   l1=[]
+
+
+
+   if 0<=z<20:
+
+       #print("low ", Ulow1)
+       l1.append(0)
+
+
+
+   if 20<=z<30:
+
+       #print("medium ", Umedium1)
+       l1.append(1)
+
+   if 30<=z<70:
+
+       #print("medium ", Umedium2)
+       l1.append(2)
+
+   if 70<=z<80:
+
+       #print("large ", Ularge1)
+       l1.append(3)
+   if z>=80:
+       l1.append(4)
+
+
+   #print(l1)
+   l.append(l1)
+
+
+   #return l1
+
+def bb_membership(lbb,mbb,ubb,nifty):
+    l1 = []
+
+    if(nifty>=ubb):
+        l1.append(4)
+
+    elif nifty<=lbb:
+        l1.append(0)
+
+
+    elif(nifty>lbb and lbb+(mbb-lbb)/2>nifty and mbb>nifty):
+        l1.append(1)
+
+    elif(nifty>lbb and mbb-(mbb-lbb)/2<nifty and mbb>nifty):
+        l1.append(2)
+
+    elif (nifty > mbb and mbb + (ubb - mbb) / 2 > nifty and ubb>=nifty):
+        l1.append(2)
+
+    elif (nifty > mbb and ubb - (ubb - mbb) / 2 < nifty and ubb>=nifty):
+        l1.append(3)
+
+
+
+    l.append(l1)
+
+
+
+
+
+
+def adx_membership(li,z):
+
+   l1=[]
+
+   l2=[]
+
+   for i in range(0,len(li)-1):
+       l2.append(li[i+1]-li[i])
+
+
+   countp=0
+   countn=0
+
+
+   for i in l2:
+       if i>=0:
+           countp=countp+1
+       if i<0:
+           countn=countn+1
+
+
+
+
+   if(countp>countn and x>25):
+       l1.append(0)
+
+
+   elif(countp>countn and x<25):
+       l1.append(4)
+   elif (countp == countn and x > 25):
+       l1.append(2)
+   elif (countp == countn and x < 25):
+       l1.append(2)
+   elif (countp < countn and x > 25):
+       l1.append(3)
+   elif (countp < countn and x < 25):
+       l1.append(1)
+
+
+
+
+   l.append(l1)
+
+
+def multiply():
+    for x in l[0]:
+        for y in l[1]:
+            for z in l[2]:
+                mini = min(x, y, z)
+                minimum.append(mini)
+
+
+def backttrack():
+    for x in l[0]:
+        for y in l[1]:
+            for z in l[2]:
+                mini = min(x, y, z)
+
+                if mini==max(minimum) :#and mini[1]==max(minimum)[1]:
+                    #print("all x,y,z values are ", x,y,z)
+
+                    #print("prediction type is ",end="")
+                    result(x,y,z)
+
+
+
+if __name__=="__main__":
+
+
+    x=int(input("enter value for rsi between 0 to 80: "))
+
+    rsi_membership(x)
+
+    x1=int(input("enter lbb for bb: "))
+    x2 =int( input("enter ubb for bb: "))
+    x3 = int(input("enter nifty for bb: "))
+
+    bb_membership(x1,(x1+x2)/2,x2,x3)
+
+
+    #x4=[]
+
+    print("enter 5 values for list for adx")
+
+    #x4=int(input("enter list for adx"))
+    #x4=[int(i) for i in range(5): input()]
+
+    '''for i in range(5):
+        ele = int(input())
+
+        x4.append(ele)  # adding the element'''
+
+    x4 = [int(item) for item in input("Enter the list items : ").split()]
+
+    x5=int(input("enter value for adx: "))
+    adx_membership(x4,x5)
+
+
+
+
+
+
+
+
+
+    print("l1 l2 l3 values are: ", l)
+    multiply()
+
+    
+
+    backttrack()
+
+    final()
+
+
+
+
